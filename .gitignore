@@ -1,0 +1,14 @@
+# Build artifacts
+*.skill
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.idea/
+.vscode/
+*.swp
+
+# Local-only eval workspaces
+evals/workspace-*/
