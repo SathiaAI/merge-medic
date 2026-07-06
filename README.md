@@ -16,25 +16,25 @@ The point isn't to repeat what reviewers said. The point is to reconcile voices 
 
 ### Cowork desktop
 
-Download `merge-medic.skill` from the [releases page](https://github.com/pjpoulose/merge-medic/releases), then click it. The Cowork app will install it under `~/Library/Application Support/Claude/...skills/`.
+Download `merge-medic.skill` from the [releases page](https://github.com/SathiaAI/merge-medic/releases), then click it. The Cowork app will install it under `~/Library/Application Support/Claude/...skills/`.
 
 ### Claude Code (CLI)
 
 ```bash
-git clone https://github.com/pjpoulose/merge-medic.git ~/.claude/skills/merge-medic
+git clone https://github.com/SathiaAI/merge-medic.git ~/.claude/skills/merge-medic
 ```
 
 Or, in a project-local checkout:
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/pjpoulose/merge-medic.git .claude/skills/merge-medic
+git clone https://github.com/SathiaAI/merge-medic.git .claude/skills/merge-medic
 ```
 
 ### Build from source
 
 ```bash
-git clone https://github.com/pjpoulose/merge-medic.git
+git clone https://github.com/SathiaAI/merge-medic.git
 cd merge-medic
 ./build.sh
 # produces merge-medic.skill in the current directory
